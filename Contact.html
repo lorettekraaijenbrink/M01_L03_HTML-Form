@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- hier zet je de code in de head tags -->
+  <title> Lorette - About me </title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <h1>De website van Lorette</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="Index.html">HOME</a> </li>
+      <li><a href="About.html">About me</a> </li>
+      <li><a href="Page2.html">Page2</a> </li>
+      <li class="active"><a href="Contact.html">Contact</a> </li>
+    </ul>
+
+  </nav>
+  <main>
+    <form name="contact" method="POST" data-netlify="true">
+      <h2>Contact!</h2>
+      <label for="name">Naam: </label><br>
+      <input id="name" type="text" name="name" /><br>
+      <label for="email">E-mail: </label><br>
+      <input id="email" type="email" name="email" /><br><br>
+      <label for="message">Bericht: </label><br>
+      <textarea id="message" rows="5" cols="40" name="message"></textarea></p>
+      <input type="submit" />
+    </form>
+  </main>
+  <footer>
+    <p>Een website voor de Winc-opleiding</p>
+  </footer>
+
+
+</body>
+
+</html>
